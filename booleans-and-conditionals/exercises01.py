@@ -1,9 +1,8 @@
 # Assign the variables for exercise 1 here:
-
-
+engine_indicator_light = "Red"
 
 # BEFORE running the code, predict what will be printed to the console by the following statements:
-
+# I predict it will print "engines are off"
 if engine_indicator_light == "green": 
   print("engines have started")
 elif engine_indicator_light == "green blinking": 
