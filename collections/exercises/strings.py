@@ -17,9 +17,23 @@ print(text[12:24])
 # Use index values to loop backwards through 'word'.
 
 # 1. Print 1 letter per line.
+word = 'word'
+for i in range(0,len(word)):
+    new_value = word[i]
+    print(new_value)
 
 
 # 2. Refactor the code to use the accumulator pattern to build up and print the reversed string. For example, if given 'good', print 'doog' on one line.
-
+word = 'good'
+rev_word = ''
+for i in range((len(word) - 1), -1, -1):
+    rev_word += word[i]
+print(rev_word)
 
 # 3. Refactor the code to print a combination of the original and reversed string. For example, given 'tomato', print 'tomatootamot'. (If you want to be fancy, print 'tomato | otamot').
+word = 'tomato'
+word = 'good'
+rev_word = ''
+for i in range((len(word) - 1), -1, -1):
+    rev_word += word[i]
+print(word + ' | ' + rev_word)
