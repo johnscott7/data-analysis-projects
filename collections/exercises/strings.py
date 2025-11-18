@@ -4,13 +4,13 @@ text = 'Strings_are_sequences_of_characters.'
 word = 'tomato'
 
 # 1. Print a slice of the first 12 characters from 'text'.
-
+print(text[0:12])
 
 # 2. Print a slice of the last 12 characters from 'text'. You should NOT have to count the index values yourself!
-
+print(text[-12:])
 
 # 3. Print a slice of the middle 12 characters from 'text'.
-
+print(text[12:24])
 
 # ---- Exercise 3: Looping Through a String ----
 
